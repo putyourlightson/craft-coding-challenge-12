@@ -1,5 +1,5 @@
 fieldLayouts:
-  bbe523c9-3019-4685-8997-f968e4341cd9:
+  ea4a2d84-4ee4-4e07-b611-df7eafaf14cc:
     tabs:
       -
         elementCondition: null
@@ -26,29 +26,29 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 289c07ee-2fd9-431e-a854-74d81c57c595
+            uid: 5fdac679-4921-4fb2-939b-88793a3666d6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 6b6005ce-5d9a-4135-a8d1-48ae9c595f28 # Flag
+            fieldUid: 2b6ba2fc-c9f5-4598-a893-7dd3931f97b0 # Dates
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6934f460-88a8-4738-983f-96dfb2623fd8
+            uid: 9d3e9bd3-6011-4ffe-b601-dc5f166eb59a
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 11847b00-6470-45a9-bdb1-eff52861c646
+        uid: 39f6a1f9-5e31-41bb-ad6b-30dd22aefc80
         userCondition: null
-handle: default
+handle: event
 hasTitleField: true
-name: Default
-section: c196afcb-c41e-4d19-8ff6-e95d277f98af # Countries
+name: Event
+section: fa9f5968-32b5-4b05-b093-6bc4ef63ed9a # Events
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

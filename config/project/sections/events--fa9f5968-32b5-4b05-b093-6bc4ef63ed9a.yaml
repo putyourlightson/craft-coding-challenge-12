@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: countries
-name: Countries
+handle: events
+name: Events
 previewTargets:
   -
     __assoc__:

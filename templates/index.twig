@@ -1,18 +1,35 @@
 {% extends '_layout.twig' %}
 
-{% set competitors = craft.entries
-    .section('competitors')
-    .orderBy('score asc')
-    .all()
+{% set events = craft.entries
+    .section('events')
+    .collect()
 %}
 
-{% set countries = [] %}
-{% for competitor in competitors %}
-    {% set country = competitor.country.one() %}
-    {% if country.id not in countries|map(country => country.id) %}
-        {% set countries = countries|push(country) %}
-    {% endif %}
-{% endfor %}
+{%- set pastEvents = events -%}
+{%- set futureEvents = events -%}
 
-{% set topCompetitors = competitors|slice(0, 5) %}
-{% set topCountries = countries|slice(0, 3) %}
+{%- block futureEvents -%}
+    {%- for event in futureEvents -%}
+        <div>
+            <h3 class="text-lg font-bold">
+                {{- event.title -}}
+            </h3>
+            <span class="text-sm text-gray-700">
+                {{- event.dates[0].date|date('F jS Y') -}}
+            </span>
+        </div>
+    {%- endfor -%}
+{%- endblock -%}
+
+{%- block pastEvents -%}
+    {%- for event in futureEvents -%}
+        <div>
+            <h3 class="text-lg font-bold">
+                {{- event.title -}}
+            </h3>
+            <span class="text-sm text-gray-700">
+                {{- event.dates[0].date|date('F jS Y') -}}
+            </span>
+        </div>
+    {%- endfor -%}
+{%- endblock -%}

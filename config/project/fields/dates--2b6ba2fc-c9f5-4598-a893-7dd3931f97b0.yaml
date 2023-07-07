@@ -1,0 +1,49 @@
+columnSuffix: hozrxife
+contentColumnType: text
+fieldGroup: 31006d4c-2f40-498c-9a4c-69cff4fd4279 # Common
+handle: dates
+instructions: null
+name: Dates
+searchable: false
+settings:
+  addRowLabel: 'Add a date'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Date
+            -
+              - handle
+              - date
+            -
+              - width
+              - ''
+            -
+              - type
+              - date
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Time
+            -
+              - handle
+              - time
+            -
+              - width
+              - ''
+            -
+              - type
+              - time
+  maxRows: null
+  minRows: 1
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

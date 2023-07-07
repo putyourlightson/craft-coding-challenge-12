@@ -1,4 +1,4 @@
-dateModified: 1678839671
+dateModified: 1688718011
 elementSources:
   craft\elements\Asset:
     -
@@ -33,23 +33,23 @@ elementSources:
   craft\elements\Entry:
     -
       defaultSort:
-        - 'field:6ba159b8-0e40-4ff9-b825-ceed90bdab7f' # Score
+        - 'field:6ba159b8-0e40-4ff9-b825-ceed90bdab7f'
         - asc
       disabled: false
-      key: 'section:fa9f5968-32b5-4b05-b093-6bc4ef63ed9a' # Competitors
+      key: 'section:fa9f5968-32b5-4b05-b093-6bc4ef63ed9a' # Events
       tableAttributes:
-        - 'field:6ba159b8-0e40-4ff9-b825-ceed90bdab7f' # Score
-        - 'field:846a33bd-87d8-4ec4-909f-32bd6399c92f' # Country
-        - 'field:8278aaa3-21b9-457a-b25e-f0d5a43fdc35' # Image
+        - 'field:6ba159b8-0e40-4ff9-b825-ceed90bdab7f'
+        - 'field:846a33bd-87d8-4ec4-909f-32bd6399c92f'
+        - 'field:8278aaa3-21b9-457a-b25e-f0d5a43fdc35'
       type: native
     -
       defaultSort:
         - title
         - asc
       disabled: false
-      key: 'section:c196afcb-c41e-4d19-8ff6-e95d277f98af' # Countries
+      key: 'section:c196afcb-c41e-4d19-8ff6-e95d277f98af'
       tableAttributes:
-        - 'field:6b6005ce-5d9a-4135-a8d1-48ae9c595f28' # Flag
+        - 'field:6b6005ce-5d9a-4135-a8d1-48ae9c595f28'
       type: native
     -
       defaultSort:
@@ -92,19 +92,14 @@ meta:
   __names__:
     0d89c679-f6f5-42ae-8341-4bea917c6af7: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
     1b95b48c-6fd9-401d-bdc6-cd251a02d62b: Competitors # Competitors
-    6b6005ce-5d9a-4135-a8d1-48ae9c595f28: Flag # Flag
-    6ba159b8-0e40-4ff9-b825-ceed90bdab7f: Score # Score
+    2b6ba2fc-c9f5-4598-a893-7dd3931f97b0: Dates # Dates
     9f09fed0-269d-48bf-9b3a-4a0a3abc44e0: Flags # Flags
     0779f354-f5d2-4f82-9a36-28a252f70ce4: 'Public Schema' # Public Schema
-    846a33bd-87d8-4ec4-909f-32bd6399c92f: Country # Country
-    8278aaa3-21b9-457a-b25e-f0d5a43fdc35: Image # Image
     31006d4c-2f40-498c-9a4c-69cff4fd4279: Common # Common
     c7c2807b-84cc-4e1f-9279-af044bc0b472: 'Public Schema' # Public Schema
-    c196afcb-c41e-4d19-8ff6-e95d277f98af: Countries # Countries
-    d617503a-3829-4390-9c8f-7fb6612a702c: Default # Default
+    d617503a-3829-4390-9c8f-7fb6612a702c: Event # Event
     f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
-    fa9f5968-32b5-4b05-b093-6bc4ef63ed9a: Competitors # Competitors
-    fdd6118c-6893-4a3f-82dc-5d797b40339f: Default # Default
+    fa9f5968-32b5-4b05-b093-6bc4ef63ed9a: Events # Events
 plugins:
   elements-panel:
     edition: standard
