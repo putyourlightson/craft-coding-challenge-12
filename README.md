@@ -1,9 +1,9 @@
-# Challenge #XY – [Working Title]
+# Challenge #12 – Fiesta Frenzy
 
-![Limbo](https://www.craftcodingchallenge.com/assets/images/limbo.jpg)
+![Fiesta-Frenzy](fiesta-frenzy-coding-challenge-12.jpg)
 
 View the challenge description at:
-https://www.craftcodingchallenge.com/challenge-11-where-in-the-world
+https://www.craftcodingchallenge.com/challenge-12-fiesta-frenzy
 
 This repo extends the stellar [Spin Up Craft](https://github.com/nystudio107/spin-up-craft) template repo by @nystudio107.
 
@@ -45,11 +45,11 @@ You are limited to 15 active Codespaces on the free plan, but you can go in and 
 5. Wait until you see output like this, and then access the site via the credentials that are output on the console:
 
 ```
-craft-coding-challenge-XY-php-1    | ### Your Craft site is ready!
-craft-coding-challenge-XY-php-1    | Frontend URL: http://localhost:8050/
-craft-coding-challenge-XY-php-1    | CP URL: http://localhost:8050/admin
-craft-coding-challenge-XY-php-1    | CP User: admin
-craft-coding-challenge-XY-php-1    | CP Password: project
+craft-coding-challenge-12-php-1    | ### Your Craft site is ready!
+craft-coding-challenge-12-php-1    | Frontend URL: http://localhost:8050/
+craft-coding-challenge-12-php-1    | CP URL: http://localhost:8050/admin
+craft-coding-challenge-12-php-1    | CP User: admin
+craft-coding-challenge-12-php-1    | CP Password: project
 ```
 
 Hit `Control-C` to terminate the project and spin down the containers
