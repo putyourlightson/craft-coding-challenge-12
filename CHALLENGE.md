@@ -13,21 +13,21 @@ Attention, party aficionados! You've been summoned as the ultimate party planner
 
 This [Git­Hub repo](https://github.com/putyourlightson/craft-coding-challenge-12) con­tains the Craft CMS site that you can spin up with a single com­mand, either loc­ally or in the browser using a Git­Hub Codespace (see the readme file in the repo).
 
-Currently, the [index.twig](https://github.com/putyourlightson/craft-coding-challenge-12/blob/main/templates/index.twig) has 2 variables which both display the same event list. It is your task to ensure that the `futureEvents` only contains upcoming events, while the pastEvents variable contains the events that have already finished. Note that in the `index.twig` file, only the first date is parsed. Keep in mind the events can have more than one date!
+Currently, the [index.twig](https://github.com/putyourlightson/craft-coding-challenge-12/blob/main/templates/index.twig) has two variables which both display the same event list. It is your task to ensure that the `futureEvents` only contains upcoming events, while the pastEvents variable contains the events that have already finished. In the templates\index.twig file, please note that the current placeholder only displays one date for each event. However, it is important to pay attention to the fact that each event actually has multiple dates. When working on your solution, ensure that you properly parse and handle the multiple dates associated with each event, so that the complete set of dates is accurately reflected in your final implementation.
 
 ## Rules
 
 Your solution should consist of the events ordered in ascending order (`asc`) for upcoming events and in descending order (`desc`) for past events. This way, the events closest to the current date will appear at the top of the list.
 
 - You may only edit the `templates/index.twig` template.
-- You are allowed to override anything in tho `pastEvents` and `futureEvents` blocks.
-- You can only use `collection` methods
+- You should override the presentational data in the `pastEvents` and `futureEvents` blocks in `templates/index.twig`
+- You can use Collection methods or Twig Filters to achieve the desired sorted result.
 - No Plugins or modules may be used except for the [Craft Closure](https://github.com/nystudio107/craft-closure) plugin. Which is already installed for you.
 - Optimise your code for readability and maintainability (for the future you).
 
 ## Tips
 
-Be clever about how you parse your dates inside the collection to simplify the sorting process.
+Be clever about how you parse your dates to simplify the sorting process and consider utilizing efficient techniques that can enhance your solution's elegance and effectiveness. Exploring the power of collection methods could prove valuable in achieving a streamlined and efficient approach.
 
 ## Bonus Points
 
